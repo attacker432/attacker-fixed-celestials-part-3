@@ -8805,7 +8805,7 @@ process.on("SIGINT", () => {
 setTimeout(() => {
   process.emit("SIGINT");
 }, 60000 * 30); // restart every 30 min.
-
+/*
 const Eris = require('eris');
 const bot = new Eris(process.env.bot_token); 
 const bot2 = new Eris(process.env.bot_token);
@@ -9057,3 +9057,4 @@ bot.editStatus('online', {
 });};
  
    bot.connect();
+*/
